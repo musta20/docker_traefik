@@ -198,7 +198,7 @@ services:
             MYSQL_DATABASE: '${ASSET_DB_DATABASE}'
             MYSQL_USER: '${ASSET_DB_USERNAME}'
             MYSQL_PASSWORD: '${ASSET_DB_PASSWORD}'
-            MYSQL_TCP_PORT: '${MYBNB_DB_PORT}'
+            MYSQL_TCP_PORT: '${ASSET_DB_PORT}'
             MYSQL_ROOT_HOST: '%'
             MYSQL_ALLOW_EMPTY_PASSWORD: 'YES'
             command: mysql --character-set-server=utf8mb4 --collaction-server
