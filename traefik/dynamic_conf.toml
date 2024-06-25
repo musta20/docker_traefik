@@ -1,0 +1,5 @@
+[http.routers]
+  [http.routers.api]
+    rule = "Host(`traefik.localhost`)"
+    service = "api@internal"
+    entryPoints = ["web"]
